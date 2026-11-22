@@ -1,0 +1,113 @@
+# AIME 2027 Knowledge & Technical Topics Index
+
+## 1. Algebra & Trigonometry
+- **Polynomials**
+  - Vieta's formulas and symmetric sums of roots
+  - Remainder and Factor Theorems
+  - Polynomial long division & division algorithm
+  - Lagrange interpolation
+  - Reciprocal polynomials ($x^n P(1/x)$)
+  - Roots-of-unity filters
+- **Sequences & Series**
+  - Arithmetic and geometric progressions
+  - Telescoping sums and products
+  - Linear and nonlinear recurrences (characteristic roots)
+  - Method of finite differences
+- **Complex Numbers**
+  - Polar and exponential forms ($re^{i\theta}$)
+  - De Moivre's Theorem
+  - $n$-th roots of unity
+  - Geometric interpretations of complex addition, multiplication, and conjugation
+- **Trigonometry**
+  - Sum-to-product and product-to-sum identities
+  - Double, half, and triple-angle formulas
+  - Law of Sines and Law of Cosines
+  - Trigonometric telescoping products and sums
+- **Logarithms & Special Functions**
+  - Change-of-base manipulations and systems of logarithms
+  - Floor ($\lfloor x \rfloor$) and ceiling ($\lceil x \rceil$) properties
+  - Fractional part function ($\{x\} = x - \lfloor x \rfloor$)
+- **Inequalities & Functional Equations**
+  - AM-GM, Cauchy-Schwarz, Triangle Inequality, and Jensen's Inequality
+  - Bounding integer extrema
+  - Functional equations via substitution, symmetry, and injectivity/surjectivity
+
+## 2. Geometry
+- **Triangle Geometry & Centers**
+  - Stewart's Theorem, Ceva's Theorem, Menelaus's Theorem
+  - Angle Bisector Theorem & Heron's Formula
+  - Incenter, circumcenter, centroid, orthocenter, excenters, and nine-point circle
+- **Circles & Power of a Point**
+  - Cyclic quadrilaterals & Ptolemy's Theorem
+  - Power of a Point (chords, secants, tangents)
+  - Radical axes and radical centers
+  - Homothety and tangent circle configurations
+- **Analytic & Coordinate Methods**
+  - Cartesian coordinate bash (Shoelace formula, point-to-line distance, conic sections)
+  - Barycentric coordinates (area and cevian ratios)
+  - Complex plane geometry (rotations, reflections, perpendicularity)
+- **Trigonometric Geometry**
+  - Trigonometric Ceva
+  - Cyclic polygon ratios
+  - Extended area formulas ($[ABC] = \frac{1}{2}ab\sin C = rs = \frac{abc}{4R}$)
+- **3D Solid Geometry**
+  - Prisms, pyramids, cones, spheres, frustums
+  - Euler's polyhedron formula ($V - E + F = 2$)
+  - Cross-sectional slicing and dihedral angles
+  - 3D coordinate geometry
+
+## 3. Number Theory
+- **Divisibility & Prime Factorization**
+  - Fundamental Theorem of Arithmetic
+  - Euclidean Algorithm & Bézout's Identity
+  - Divisor counting function ($\tau(n)$) and divisor sum function ($\sigma(n)$)
+  - Legendre's Formula for $p$-adic valuation ($v_p(n!)$)
+- **Modular Arithmetic**
+  - Linear congruences & modular multiplicative inverses
+  - Chinese Remainder Theorem (CRT)
+  - Fermat's Little Theorem & Euler's Totient Theorem ($\phi(n)$)
+  - Wilson's Theorem
+  - Lifting the Exponent Lemma (LTE)
+- **Diophantine Equations**
+  - Linear Diophantine equations
+  - Simon's Favorite Factoring Trick (SFFT)
+  - Pythagorean triples
+  - Pell's equation ($x^2 - Dy^2 = 1$)
+  - Modular bounding & infinite descent
+- **Base Representations**
+  - Base-$b$ conversions
+  - Digit-sum invariants and divisibility rules in arbitrary bases
+
+## 4. Combinatorics & Probability
+- **Counting Principles**
+  - Permutations, combinations, and multiset arrangements
+  - Stars and Bars (with upper and lower bounds)
+  - Principle of Inclusion-Exclusion (PIE)
+  - Complementary counting & symmetry adjustments
+- **Combinatorial Identities & Structures**
+  - Pigeonhole Principle & double counting
+  - Bijections & derangements
+  - Catalan numbers & Stirling numbers
+  - Hockey-Stick Identity & Vandermonde's Identity
+- **Recursion & Generating Functions**
+  - State-transition recurrences via structured casework
+  - Ordinary generating functions (OGFs) for constrained integer partitions
+- **Probability & Expected Value**
+  - Conditional probability & Bayes' Theorem
+  - Linearity of Expectation (using indicator random variables)
+  - Geometric probability
+  - Markov chains & state-based expected hitting times
+- **Graph Theory & Invariants**
+  - Handshaking lemma
+  - Trees & network topology
+  - Graph coloring arguments
+  - Monovariants and extremal principles
+
+## 5. Exam Format & Technical Constraints
+- **Two-Part Locked Structure**
+  - Part 1: Questions 1–8 (90 minutes)
+  - Part 2: Questions 9–15 (90 minutes)
+  - Non-linear difficulty distribution across both parts
+- **Answer Specifications**
+  - Exact three-digit integer outputs ($000$ to $999$)
+  - Zero partial credit; no formula sheets or calculators permitted
