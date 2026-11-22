@@ -5,7 +5,7 @@
   - Vieta's formulas and symmetric sums of roots
   - Remainder and Factor Theorems
   - Polynomial long division & division algorithm
-  - Lagrange interpolation
+  - [Lagrange interpolation](./aime-lagrange-interpolation-guide-v2.md)
   - Reciprocal polynomials ($x^n P(1/x)$)
   - Roots-of-unity filters
 - **Sequences & Series**
