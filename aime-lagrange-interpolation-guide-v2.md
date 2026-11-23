@@ -1,9 +1,9 @@
 # Lagrange Interpolation & Auxiliary Polynomials
 
----
-
 * TOC
 {:toc}
+
+---
 
 ## 1. Overview & Formula
 
