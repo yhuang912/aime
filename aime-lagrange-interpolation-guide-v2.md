@@ -1,5 +1,4 @@
 # Lagrange Interpolation & Auxiliary Polynomials
-{: .no_toc }
 
 * TOC
 {:toc}
