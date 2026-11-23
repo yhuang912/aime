@@ -2,6 +2,9 @@
 
 ---
 
+* TOC
+{:toc}
+
 ## 1. Overview & Formula
 
 **Lagrange interpolation** is a standard technique on the AIME for reconstructing an unknown polynomial $P(x)$ of degree at most $n$ from $n+1$ known points, or for directly evaluating $P(k)$ at a single integer $k$ without finding its coefficients.

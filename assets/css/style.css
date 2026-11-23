@@ -79,7 +79,8 @@ hr {
   overflow-x: auto;
 }
 
-.callout, blockquote {
+.callout,
+blockquote {
   background: var(--accent-light);
   border-left: 4px solid var(--accent);
   padding: 0.85rem 1.25rem;
@@ -104,7 +105,8 @@ table {
   background: var(--surface);
 }
 
-th, td {
+th,
+td {
   border: 1px solid var(--border);
   padding: 0.65rem 0.85rem;
   text-align: left;
@@ -146,8 +148,44 @@ ul.task-list {
   body {
     padding: 1rem;
   }
+
   h1:first-of-type {
     font-size: 1.5rem;
     padding: 1.5rem 1.25rem;
   }
+}
+
+
+/* Kramdown Auto-Generated Table of Contents */
+#markdown-toc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem 1.25rem 2.25rem;
+  margin: 1.75rem auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.4rem 1.5rem;
+}
+
+#markdown-toc::before {
+  content: "CONTENTS";
+  grid-column: 1 / -1;
+  margin: 0 0 0.5rem -0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+#markdown-toc a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#markdown-toc a:hover {
+  text-decoration: underline;
 }
