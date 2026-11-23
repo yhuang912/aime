@@ -1,0 +1,153 @@
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --border: #e2e8f0;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;
+  --accent: #0f766e;
+  --accent-light: #f0fdfa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2rem 1.5rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+
+/* Title banner styling applied to Markdown's top # H1 */
+h1:first-of-type {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #ffffff;
+  padding: 2.25rem 2rem;
+  margin: 0 0 1.5rem;
+  border-radius: 12px;
+  border-bottom: 4px solid var(--primary);
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Section headers (Markdown ##) */
+h2 {
+  margin-top: 2.25rem;
+  font-size: 1.45rem;
+  color: #0f172a;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  color: #1e293b;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* Custom callout classes (usable via HTML divs or Kramdown {: .callout}) */
+.formula-box {
+  background: var(--primary-light);
+  border-left: 4px solid var(--primary);
+  padding: 0.85rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.callout, blockquote {
+  background: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  padding: 0.85rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+}
+
+.warning-box {
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  padding: 0.85rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+  background: var(--surface);
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Collapsible <details> blocks in your Markdown quiz */
+details {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  margin: 0.65rem 0;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+details[open] summary {
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Task list checkboxes in quiz */
+ul.task-list {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  h1:first-of-type {
+    font-size: 1.5rem;
+    padding: 1.5rem 1.25rem;
+  }
+}
